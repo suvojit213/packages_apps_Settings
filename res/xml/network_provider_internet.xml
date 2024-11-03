@@ -103,6 +103,15 @@
         android:positiveButtonText="@string/save"
         android:negativeButtonText="@android:string/cancel" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_footer_data_usage"
+        android:title="@string/qs_footer_datausage_title"
+        android:summary="@string/qs_footer_datausage_summary"
+        android:icon="@drawable/ic_settings_data_usage"
+        android:order="50"
+        android:defaultValue="false" />
+
+
     <Preference
         android:key="network_traffic_state"
         android:icon="@drawable/ic_settings_network_traffic"
